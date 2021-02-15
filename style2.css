@@ -1,0 +1,77 @@
+body {
+    background-color: #202225;
+}
+
+.new_tech {
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+    margin: 30px;
+}
+
+.tech_1 img , .tech_2 img {
+    width: 500px;
+    border-radius: 15px;
+}
+
+.tech_1 ,.tech_2{
+    padding: 30px;
+}
+
+li {
+    font-size: large;
+
+}
+h1 {
+    color: #d166e4;
+}
+h3 {
+    font-size: 30px;
+    color: #9140f3;
+}
+
+li {
+    color: rgb(255, 87, 255);
+    font-size: larger;
+}
+
+h4 {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tech_1{
+    transition: all 2s ease;
+    border: 5px solid #A580C4;
+    border-radius: 14px;
+    margin: 30px;
+    background: rgb(39,38,62);
+    background: linear-gradient(90deg, rgba(39,38,62,1) 1%, rgba(45,2,83,1) 23%, rgba(122,79,224,1) 88%, rgba(156,74,205,1) 100%);
+}
+
+.tech_2 {
+    transition: all 2s ease;
+    border: 5px solid #A580C4;
+    margin: 30px;
+    border-radius: 14px;
+    background: rgb(59,40,71);
+    background: linear-gradient(90deg, rgba(59,40,71,1) 0%, rgba(131,105,198,1) 50%, rgba(69,152,252,1) 100%);
+}
+
+.tech_1:hover {
+    background: rgb(39,38,62);
+    transform: scale(1.02);
+    background: linear-gradient(90deg, rgba(59,40,71,1) 0%, rgba(131,105,198,1) 50%, rgba(69,152,252,1) 100%);
+    transition: all 2s ease;
+}
+
+.tech_2:hover {
+    background: rgb(39,38,62);
+    transform: scale(1.02);
+    background: rgb(39,38,62);
+    background: linear-gradient(90deg, rgba(39,38,62,1) 1%, rgba(45,2,83,1) 23%, rgba(122,79,224,1) 88%, rgba(156,74,205,1) 100%);
+    transition: all 2s ease;
+}
